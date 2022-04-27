@@ -17,7 +17,7 @@ class log:
             
     def loginit(self):
         
-        if self.disable_log == 'False':
+        if self.disable_log == 'True':
             
             filename = f'{self.name_file_log} - {datetime.now().strftime("%d-%m-%Y %H")}.log'
             filename = f'[DEV] {filename}' if self.dev_env == 'DEV' else filename

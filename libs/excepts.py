@@ -3,6 +3,7 @@ import sys
 import traceback
 import logging
 from dotenv import load_dotenv
+from libs.log import log
 
 load_dotenv(dotenv_path=f"{getcwd()}/.env")
 log().loginit()
