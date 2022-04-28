@@ -2,6 +2,8 @@
 
 Api que busca as 10 musicas mais tocadas de um artista.
 
+Utiliza o Redis para guardar resultados recentes já consultados.
+
 ## Collection Externas
 
 ```py
